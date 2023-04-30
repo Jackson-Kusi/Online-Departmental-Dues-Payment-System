@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2023 at 08:42 PM
+-- Generation Time: Apr 30, 2023 at 09:27 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -51,15 +51,6 @@ CREATE TABLE `fees` (
   `particulars` varchar(255) NOT NULL,
   `amount` decimal(10,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `fees`
---
-
-INSERT INTO `fees` (`id`, `particulars`, `amount`) VALUES
-(55, 'DUES', '40.00'),
-(56, 'LACOSTE', '45.00'),
-(57, 'BOOKS', '15.00');
 
 -- --------------------------------------------------------
 
