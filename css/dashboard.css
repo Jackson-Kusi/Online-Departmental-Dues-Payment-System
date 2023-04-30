@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    height: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #7b7b7c;
+}
+.right-section {
+    display: flex;
+    margin-right: 40px;
+}
+
+.id-para {
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    display: flex;
+}
+.id-para img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.btn {
+    background-color: #031435;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin-top: 7px;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.writing {
+    font-size: 12px;
+    color: #ffffff;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.left-section {
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 40px;
+    background-color: #031435;
+    width: 250px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidewrite-container {
+    margin-top: 10px;
+}
+
+.sidewrite-past {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 3.9;
+    text-align: center;
+}
+
+
+.sidewrite-past:hover {
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(53, 53, 179);
+    padding: 1px;
+    cursor: pointer;
+}
+
+

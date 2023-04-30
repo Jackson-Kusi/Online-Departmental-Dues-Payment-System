@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(48, 48, 107);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.main-div {
+    background-blend-mode: hsl(0, 29%, 76%);
+    display: flex;
+    height: 500px;
+    width: 800px;
+    padding: 15px;
+    margin:  40px auto;
+}
+.left-div {
+    width: 400px;
+    align-items: center;
+}
+.left-div img {
+    width: 400px;
+    height: 100%;
+}
+.right-div {
+    width: 400px;
+    background-color: #031435;
+    padding: 13px;
+    text-align: center;
+}
+.logo {
+    width: 100px;
+    align-items: center;
+}
+.dept-name, .stu-pan {
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stu-pan {
+    font-size: 18px;
+    color: rgb(31, 31, 245);
+}
+.fill-in-div-1, .fill-in-div-2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.fill-in-div-1 img, .fill-in-div-2 img  {
+    width: 40px;
+    
+}
+.fill-in-div-1 input, .fill-in-div-2 input {
+    background-color: #031435;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+.fill-in-div-1 input:focus, .fill-in-div-2 input:focus {
+    outline: none;
+}
+
+
+.forget {
+    text-align: center;
+    cursor: pointer;
+}
+
+.forget:hover {
+    color: red;
+}
+
+.btn {
+    background-color: rgb(61, 61, 245);
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.btn:hover {
+    background-color: rgb(22, 22, 172);
+}
+
+@media screen and (max-width: 768px) {
+    .main-div {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+    
+    .left-div {
+      width: 100%;
+    }
+    
+    .left-div img {
+      width: 100%;
+    }
+    
+    .right-div {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .fill-in-div-1, .fill-in-div-2{
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    
+    .fill-in-div-1 input, .fill-in-div-2 input {
+      padding: 10px;
+    }
+    
+    .remForget {
+      flex-direction: column;
+    }
+    
+    .forget {
+      margin: 10px 0;
+    }
+  }
